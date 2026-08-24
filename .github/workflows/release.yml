@@ -57,7 +57,7 @@ jobs:
           rpm -qip "$(find out/make -type f -name '*.rpm' -print -quit)"
       - name: Collect standard release assets
         run: node scripts/collect_release_assets.mjs out/make release-assets ${{ matrix.platform }} ${{ matrix.arch }}
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: release-${{ matrix.platform }}-${{ matrix.arch }}
           path: release-assets/*
