@@ -36,6 +36,44 @@
   <a href="#קהילה-ותרומה">תרומה לפרויקט</a>
 </p>
 
+<div align="center" dir="rtl">
+  <h2>מתחברת כמעט לכל הבנקים וחברות האשראי בישראל</h2>
+  <p>כל החשבונות והכרטיסים מתחברים לתמונה פיננסית אחת — מקומית, פרטית וברורה.</p>
+  <p><strong>10 בנקים · 4 חברות אשראי</strong></p>
+</div>
+
+<p align="center" dir="rtl"><sub><strong>בנקים</strong></sub></p>
+
+<table align="center" dir="rtl">
+  <tr>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/leumi.png" height="52" alt="בנק לאומי"><br><sub>בנק לאומי</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/hapoalim.png" width="150" alt="בנק הפועלים"><br><sub>בנק הפועלים</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/mizrahi.png" width="135" alt="מזרחי־טפחות"><br><sub>מזרחי־טפחות</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/discount.png" height="52" alt="בנק דיסקונט"><br><sub>בנק דיסקונט</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/mercantile.png" width="150" alt="בנק מרכנתיל"><br><sub>בנק מרכנתיל</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/beinleumi.png" width="150" alt="הבנק הבינלאומי"><br><sub>הבנק הבינלאומי</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/otsar-hahayal.png" width="150" alt="בנק אוצר החייל"><br><sub>בנק אוצר החייל</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/massad.png" width="120" alt="בנק מסד"><br><sub>בנק מסד</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/yahav.png" height="55" alt="בנק יהב"><br><sub>בנק יהב</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/pagi.png" width="120" alt="בנק פאגי"><br><sub>בנק פאג״י</sub></td>
+  </tr>
+</table>
+
+<p align="center" dir="rtl"><sub><strong>חברות אשראי</strong></sub></p>
+
+<table align="center" dir="rtl">
+  <tr>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/max.png" width="110" alt="מקס"><br><sub>Max</sub></td>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/isracard.png" width="140" alt="ישראכרט"><br><sub>ישראכרט</sub></td>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/visaCal.png" width="82" alt="כאל"><br><sub>כאל</sub></td>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/amex.png" height="58" alt="אמריקן אקספרס"><br><sub>אמריקן אקספרס</sub></td>
+  </tr>
+</table>
+
+<p align="center" dir="rtl"><sub>הלוגואים וסימני המסחר שייכים לבעליהם ומוצגים לזיהוי המוסדות הנתמכים בלבד. <a href="docs/assets/institutions/README.md">מקורות נכסי המותג</a>.</sub></p>
+
 > [!IMPORTANT]
 > **אין הרשמה, אין כניסה עם Google, אין תקופת ניסיון, אין מנוי ואין תשלום.** מורידים, מתקינים ונכנסים ישירות לפרופיל המקומי.
 

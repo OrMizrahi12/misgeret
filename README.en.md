@@ -26,6 +26,44 @@
   <a href="https://github.com/OrMizrahi12/misgeret/releases/download/v1.0.0/Misgeret-Full-Product-Tour-v1.0.0.mp4"><img alt="Watch the product tour" src="https://img.shields.io/badge/Watch-Product_Tour-ef3f75?style=for-the-badge&logo=youtube"></a>
 </p>
 
+<div align="center">
+  <h2>Connects to nearly every bank and credit-card provider in Israel</h2>
+  <p>All your accounts and cards come together in one clear, private, local financial picture.</p>
+  <p><strong>10 banks · 4 credit-card providers</strong></p>
+</div>
+
+<p align="center"><sub><strong>Banks</strong></sub></p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/leumi.png" height="52" alt="Bank Leumi"><br><sub>Bank Leumi</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/hapoalim.png" width="150" alt="Bank Hapoalim"><br><sub>Bank Hapoalim</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/mizrahi.png" width="135" alt="Mizrahi-Tefahot"><br><sub>Mizrahi-Tefahot</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/discount.png" height="52" alt="Israel Discount Bank"><br><sub>Discount Bank</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/mercantile.png" width="150" alt="Mercantile Bank"><br><sub>Mercantile</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/beinleumi.png" width="150" alt="First International Bank of Israel"><br><sub>First International</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/otsar-hahayal.png" width="150" alt="Bank Otsar Hahayal"><br><sub>Otsar Hahayal</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/massad.png" width="120" alt="Bank Massad"><br><sub>Bank Massad</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="client/src/assets/companies/yahav.png" height="55" alt="Bank Yahav"><br><sub>Bank Yahav</sub></td>
+    <td align="center" width="20%" bgcolor="#ffffff"><img src="docs/assets/institutions/pagi.png" width="120" alt="PAGI Bank"><br><sub>PAGI</sub></td>
+  </tr>
+</table>
+
+<p align="center"><sub><strong>Credit-card providers</strong></sub></p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/max.png" width="110" alt="Max"><br><sub>Max</sub></td>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/isracard.png" width="140" alt="Isracard"><br><sub>Isracard</sub></td>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/visaCal.png" width="82" alt="Cal"><br><sub>Cal</sub></td>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/amex.png" height="58" alt="American Express"><br><sub>American Express</sub></td>
+  </tr>
+</table>
+
+<p align="center"><sub>Logos and trademarks belong to their respective owners and are shown solely to identify supported institutions. <a href="docs/assets/institutions/README.md">Brand-asset sources</a>.</sub></p>
+
 No sign-up, Google login, trial, subscription, or payment. Install the app and enter a local profile immediately. The interface is currently Hebrew.
 
 [Windows x64](https://github.com/OrMizrahi12/misgeret/releases/latest/download/MisgeretSetup.exe) · [macOS Apple Silicon](https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-macOS-arm64.dmg) · [macOS Intel](https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-macOS-x64.dmg) · [Linux DEB](https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-Linux-x64.deb) · [Linux RPM](https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-Linux-x64.rpm)
