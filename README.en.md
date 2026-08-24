@@ -56,6 +56,14 @@ npm run desktop:make
 
 The GitHub release workflow builds Windows x64, macOS arm64/x64, and Linux x64 packages. See [Development](docs/development.md), [Architecture](docs/architecture.md), and [Contributing](CONTRIBUTING.md).
 
+## Community and contributing
+
+- Start with [`good first issue`](https://github.com/OrMizrahi12/misgeret/labels/good%20first%20issue) or [`help wanted`](https://github.com/OrMizrahi12/misgeret/labels/help%20wanted).
+- Use [GitHub Discussions](https://github.com/OrMizrahi12/misgeret/discussions) for questions and early ideas.
+- See the [Roadmap](ROADMAP.md) for project direction and [Contributing](CONTRIBUTING.md) before opening a pull request.
+- Read [Support](SUPPORT.md) for the correct public channel and [Security](SECURITY.md) for private vulnerability reporting.
+- Every change to `main` goes through a pull request and automated CI.
+
 ## Signing status
 
 The current Windows and macOS packages are not code-signed or notarized. SmartScreen or Gatekeeper may warn on first launch. Verify the release checksum and download only from this repository. Windows updates automatically through GitHub Releases; macOS and Linux updates are manual.
@@ -64,4 +72,4 @@ The current Windows and macOS packages are not code-signed or notarized. SmartSc
 
 [MIT](LICENSE). Misgeret is an educational awareness tool, not financial, pension, insurance, legal, or investment advice.
 
-[עברית](README.md) · [Releases](https://github.com/OrMizrahi12/misgeret/releases) · [Security](SECURITY.md)
+[עברית](README.md) · [Roadmap](ROADMAP.md) · [Discussions](https://github.com/OrMizrahi12/misgeret/discussions) · [Releases](https://github.com/OrMizrahi12/misgeret/releases) · [Security](SECURITY.md)

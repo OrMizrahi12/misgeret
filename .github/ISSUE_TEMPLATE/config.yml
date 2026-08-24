@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Questions and troubleshooting
+    url: https://github.com/OrMizrahi12/misgeret/discussions/categories/q-a
+    about: Ask for help in Discussions without sharing real financial data or credentials.
+  - name: Early feature ideas
+    url: https://github.com/OrMizrahi12/misgeret/discussions/categories/ideas
+    about: Discuss an idea before turning it into a scoped feature request.
   - name: Security vulnerability
     url: https://github.com/OrMizrahi12/misgeret/security/advisories/new
     about: Report vulnerabilities privately. Never open a public security issue with sensitive details.

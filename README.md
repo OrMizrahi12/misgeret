@@ -242,10 +242,18 @@ npm run verify
 
 פרטים נוספים: [מדריך פיתוח](docs/development.md) · [ארכיטקטורה](docs/architecture.md) · [נתוני ההדגמה וצילומי המסך](docs/demo-data.md) · [איך לתרום](CONTRIBUTING.md)
 
+## קהילה ותרומה
+
+- התחלה מומלצת: [`good first issue`](https://github.com/OrMizrahi12/misgeret/labels/good%20first%20issue) או [`help wanted`](https://github.com/OrMizrahi12/misgeret/labels/help%20wanted).
+- שאלות ורעיונות מוקדמים: [GitHub Discussions](https://github.com/OrMizrahi12/misgeret/discussions).
+- כיוון הפרויקט: [Roadmap](ROADMAP.md).
+- עזרה, דיווח באגים ודיווח חולשות: [Support](SUPPORT.md) · [Security](SECURITY.md).
+- כל שינוי ל־`main` עובר Pull Request ובדיקת CI אוטומטית.
+
 ## רישיון ואחריות
 
 Misgeret מופצת תחת [MIT License](LICENSE). זו תוכנה קהילתית וכלי חינוכי למודעות פיננסית — לא ייעוץ פיננסי, פנסיוני, ביטוחי, משפטי או השקעותי. השימוש באחריות המשתמש; מומלץ לבדוק נתונים מהותיים מול המקור.
 
 ---
 
-[English README](README.en.md) · [Releases](https://github.com/OrMizrahi12/misgeret/releases) · [Issues](https://github.com/OrMizrahi12/misgeret/issues) · [Security](SECURITY.md)
+[English README](README.en.md) · [Roadmap](ROADMAP.md) · [Discussions](https://github.com/OrMizrahi12/misgeret/discussions) · [Issues](https://github.com/OrMizrahi12/misgeret/issues) · [Security](SECURITY.md)
