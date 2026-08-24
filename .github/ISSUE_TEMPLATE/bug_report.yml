@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a reproducible Misgeret problem using synthetic or redacted data.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Never attach bank credentials, database files, exports, logs, or screenshots containing real financial data. Security vulnerabilities belong in private vulnerability reporting.
+  - type: input
+    id: version
+    attributes:
+      label: Misgeret version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows x64
+        - macOS Apple Silicon
+        - macOS Intel
+        - Linux x64
+        - Development web mode
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Explain the actual and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Prefer MOCK_BANK=1 and synthetic data.
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional redacted context
+      description: Do not include secrets or real financial information.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed credentials, identifiers, transactions, balances, database files, exports, and other personal data.
+          required: true

@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest a focused improvement to the local-first application.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user problem before proposing an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: local_data
+    attributes:
+      label: Local-data and privacy impact
+      description: Explain whether the idea changes storage, network access, credentials, exports, or migrations.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: This request does not contain real financial data or credentials.
+          required: true

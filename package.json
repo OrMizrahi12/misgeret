@@ -1,0 +1,76 @@
+{
+  "name": "misgeret",
+  "productName": "Misgeret",
+  "version": "1.0.0",
+  "description": "מסגרת — open-source, local-first financial awareness for Windows, macOS and Linux",
+  "author": "Misgeret",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrMizrahi12/misgeret.git"
+  },
+  "homepage": "https://github.com/OrMizrahi12/misgeret#readme",
+  "bugs": {
+    "url": "https://github.com/OrMizrahi12/misgeret/issues"
+  },
+  "private": true,
+  "main": "desktop/dist/main.cjs",
+  "config": {
+    "forge": "./forge.config.ts"
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n server,client \"npm run dev -w server\" \"npm run dev -w client\"",
+    "start": "npm run build -w client && npm run start -w server",
+    "test": "npm run test -w server",
+    "typecheck": "npm run typecheck -w server && npm run typecheck -w client && npm run desktop:typecheck",
+    "build:manifest": "node scripts/generate_build_manifest.mjs",
+    "build:client": "npm run build:manifest && npm run build -w client && node scripts/copy_build_manifest.mjs client/dist",
+    "build:server": "npm run build:manifest && tsc -p server/tsconfig.build.json && node scripts/copy_build_manifest.mjs server/dist",
+    "desktop:build": "npm run build:manifest && node desktop/build.mjs",
+    "build:desktop": "npm run build:client && npm run build:server && npm run desktop:build",
+    "desktop:typecheck": "tsc -p desktop/tsconfig.json --noEmit",
+    "desktop:test": "node --import tsx --test desktop/test/*.test.ts",
+    "test:scripts": "node --test scripts/*.test.mjs",
+    "test:build-contract": "node scripts/verify_build_contract.mjs",
+    "desktop:start": "npm run desktop:package && node scripts/launch_packaged_desktop.mjs",
+    "prepare:chromium": "node scripts/prepare_chromium.mjs",
+    "audit:desktop": "node scripts/audit_desktop_artifacts.mjs out",
+    "release:metadata": "node scripts/generate_release_metadata.mjs out/make out/release-metadata",
+    "deploy:local": "node scripts/deploy_local.mjs",
+    "ship:local": "npm run desktop:make && node scripts/deploy_local.mjs",
+    "desktop:package": "npm run prepare:chromium && npm run build:desktop && npm run test:build-contract && electron-forge package && npm run audit:desktop",
+    "desktop:make": "npm run prepare:chromium && npm run build:desktop && npm run test:build-contract && electron-forge make && npm run audit:desktop && npm run release:metadata",
+    "desktop:release": "node scripts/verify_release_prerequisites.mjs && npm run prepare:chromium && npm run build:desktop && npm run test:build-contract && electron-forge make --arch=x64 && npm run audit:desktop && node scripts/verify_authenticode.mjs && npm run release:metadata",
+    "release:publish": "node scripts/publish_release.mjs",
+    "verify": "npm test && npm run typecheck && npm run desktop:test && npm run test:scripts && npm run build:desktop && npm run test:build-contract"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "express": "^5.2.1",
+    "israeli-bank-scrapers": "^6.8.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "7.11.2",
+    "@electron-forge/maker-deb": "7.11.2",
+    "@electron-forge/maker-dmg": "7.11.2",
+    "@electron-forge/maker-rpm": "7.11.2",
+    "@electron-forge/maker-squirrel": "7.11.2",
+    "@electron-forge/maker-zip": "7.11.2",
+    "@electron-forge/plugin-auto-unpack-natives": "7.11.2",
+    "@electron-forge/plugin-fuses": "7.11.2",
+    "@electron/fuses": "1.8.0",
+    "@types/node": "^26.1.1",
+    "concurrently": "^10.0.3",
+    "electron": "42.6.1",
+    "esbuild": "0.28.1",
+    "typescript": "^7.0.2"
+  },
+  "optionalDependencies": {
+    "@primno/dpapi": "^2.0.1"
+  }
+}

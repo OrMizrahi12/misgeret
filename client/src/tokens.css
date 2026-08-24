@@ -1,0 +1,160 @@
+/* ——— מסגרת 4.0 · "סגול־שמש" ———
+   Violet-sun identity: electric violet is the ownable brand voice, the amber
+   sun stays the logo's soul and the single "moment" accent per screen.
+   Every legacy variable name is preserved so components restyle through the
+   theme alone. Polarity law untouched: green = money in / kept / saved,
+   red = money out, orange = warning only — the brand violet sits far from all
+   three. Category + chart palettes are untouched (validated sets; every mark
+   is direct-labeled, so identity never rides on color alone). */
+:root {
+  color-scheme: light;
+  /* surfaces — near-white with a violet whisper, white cards */
+  --canvas: #f6f5fa;
+  --surface: #ffffff;
+  --surface-2: #f4f3f9;
+  --surface-3: #e9e7f2;
+  --hairline: rgba(91, 43, 224, 0.11);
+  --hairline-strong: rgba(91, 43, 224, 0.22);
+  /* ink — violet-tinted near-black */
+  --ink: #17131f;
+  --ink-muted: #5f5a6e;
+  --ink-subtle: #8b8699;
+  /* brand — electric violet; the sun is the savings ribbon & celebration */
+  --accent: #5b2be0;
+  --accent-2: #db8a00;
+  --accent-ink: #ffffff;
+  --positive: #248a3d;
+  --negative: #d70015;
+  --warning: #b25000;
+  --positive-deep: #1a6e30;
+  --negative-deep: #a50011;
+  --grad-accent: linear-gradient(180deg, #6435f0 0%, #4f1fd6 100%);
+  --grad-card: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  /* the 0.5px ring is the crisp "cut-out" edge — depth comes from the soft violet drop */
+  --shadow-card: 0 0 0 0.5px rgba(23, 19, 31, 0.045), 0 1px 2px rgba(23, 19, 31, 0.05), 0 12px 28px -18px rgba(67, 24, 201, 0.22);
+  /* ring + near-shadow only — cards compose their own coloured glow on top of this */
+  --shadow-card-base: 0 0 0 0.5px rgba(23, 19, 31, 0.045), 0 1px 2px rgba(23, 19, 31, 0.05);
+  --glow-accent: 0 6px 18px -10px rgba(91, 43, 224, 0.55);
+  /* washes & overlays — violet whispers, never loud */
+  --titlebar-bg: rgba(252, 251, 255, 0.9);
+  --header-bg: rgba(246, 245, 250, 0.78);
+  --sidebar-bg: rgba(250, 249, 253, 0.88);
+  --popover-bg: rgba(255, 255, 255, 0.98);
+  --toast-bg: rgba(255, 255, 255, 0.97);
+  --input-bg: #ffffff;
+  --option-bg: #ffffff;
+  --hover-wash: rgba(91, 43, 224, 0.06);
+  --hover-wash-strong: rgba(91, 43, 224, 0.1);
+  --wash-faint: rgba(91, 43, 224, 0.035);
+  --table-head-wash: rgba(91, 43, 224, 0.04);
+  --details-wash: rgba(91, 43, 224, 0.04);
+  --scrim: rgba(23, 19, 31, 0.45);
+  --shimmer: rgba(255, 255, 255, 0.65);
+  --drawer-shadow: -22px 0 48px rgba(23, 19, 31, 0.18);
+  --marker-ink: rgba(23, 19, 31, 0.45);
+  --composition-rest: rgba(23, 19, 31, 0.08);
+  --composition-rest-dot: rgba(23, 19, 31, 0.14);
+  --text-halo: rgba(255, 255, 255, 0.82);
+  --chart-grid-ink: rgba(23, 19, 31, 0.08);
+  /* chart ink — Apple system hues, deepened for white surfaces.
+     Polarity law: green = money in / kept / saved, red = money out.
+     -2 is the committed-expense companion (validated pair, CVD ≥ 12 vs green) */
+  --chart-expense: #d70015;
+  --chart-expense-2: #9a1a22;
+  --chart-flow-a: #5856d6;
+  --chart-flow-b: #0090ab;
+  --cat-yellow: #b08800;
+  --cat-orange: #d9730d;
+  --cat-pink: #d30f45;
+  --cat-violet: #5b58d8;
+  --cat-teal: #0090ab;
+  --cat-lime: #66980a;
+  --cat-blue: #0071e3;
+  --cat-magenta: #b23aa6;
+  --cat-green: #1f7a35;
+  --cat-red: #d70015;
+  --cat-mint: #0e9370;
+  --cat-amber: #9a7100;
+  --cat-slate: #5d6470;
+  --cat-gray: #6e6e73;
+  --cat-fallback: #74747a;
+  /* How much of a category hue survives when white text has to sit ON it (the year staircase).
+     Measured, not guessed: the raw hues put white at 3.28:1 — this is the mix that clears 4.5:1
+     across the whole palette. The dark ramp is lighter, so it needs a deeper mix. */
+  --cat-ink-mix: 82%;
+  /* shape & type */
+  --r-control: 12px;
+  --r-card: 18px;
+  --font: 'Assistant', 'Segoe UI', system-ui, sans-serif;
+  --font-display: 'Rubik', 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ——— לילה סגול — a selected dark theme, not an automatic flip ——— */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --cat-ink-mix: 60%;
+  --canvas: #0b0812;
+  --surface: #16121f;
+  --surface-2: #201a2e;
+  --surface-3: #2b2440;
+  --hairline: rgba(139, 102, 255, 0.15);
+  --hairline-strong: rgba(139, 102, 255, 0.28);
+  --ink: #f2f0f7;
+  --ink-muted: #a9a3b8;
+  --ink-subtle: #7e7890;
+  --accent: #8b66ff;
+  --accent-2: #ffb84d;
+  --accent-ink: #140a2e;
+  --positive: #30d158;
+  /* Apple's true dark systemRed — the softened #ff6961 sat at deutan ΔE 5.3
+     from the green; #ff453a clears the CVD floor (14.7) and reads on black */
+  --negative: #ff453a;
+  --warning: #ffb340;
+  --positive-deep: #7cf0a4;
+  --negative-deep: #ffa39d;
+  --grad-accent: linear-gradient(180deg, #9a79ff 0%, #7a4ff5 100%);
+  --grad-card: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
+  --shadow-card: 0 0 0 0.5px rgba(255, 255, 255, 0.055), 0 1px 2px rgba(0, 0, 0, 0.5), 0 12px 32px -12px rgba(0, 0, 0, 0.7);
+  --shadow-card-base: 0 0 0 0.5px rgba(255, 255, 255, 0.055), 0 1px 2px rgba(0, 0, 0, 0.5);
+  --glow-accent: 0 0 24px -8px rgba(139, 102, 255, 0.55);
+  --titlebar-bg: rgba(13, 10, 20, 0.92);
+  --header-bg: rgba(11, 8, 18, 0.72);
+  --sidebar-bg: rgba(18, 14, 28, 0.85);
+  --popover-bg: rgba(24, 19, 36, 0.98);
+  --toast-bg: rgba(32, 26, 46, 0.97);
+  --input-bg: rgba(139, 102, 255, 0.12);
+  --option-bg: #201a2e;
+  --hover-wash: rgba(139, 102, 255, 0.09);
+  --hover-wash-strong: rgba(139, 102, 255, 0.13);
+  --wash-faint: rgba(139, 102, 255, 0.05);
+  --table-head-wash: rgba(139, 102, 255, 0.05);
+  --details-wash: rgba(0, 0, 0, 0.3);
+  --scrim: rgba(0, 0, 0, 0.6);
+  --shimmer: rgba(255, 255, 255, 0.06);
+  --drawer-shadow: -22px 0 48px rgba(0, 0, 0, 0.6);
+  --marker-ink: rgba(242, 240, 247, 0.5);
+  --composition-rest: rgba(255, 255, 255, 0.08);
+  --composition-rest-dot: rgba(255, 255, 255, 0.14);
+  --text-halo: rgba(11, 8, 18, 0.72);
+  --chart-grid-ink: rgba(255, 255, 255, 0.09);
+  /* charts in the dark: Apple's vivid dark-system palette */
+  --chart-expense: #ff453a;
+  --chart-expense-2: #c8423d;
+  --chart-flow-a: #7d7aff;
+  --chart-flow-b: #66d4cf;
+  --cat-yellow: #ffd426;
+  --cat-orange: #ff9f0a;
+  --cat-pink: #ff6482;
+  --cat-violet: #7d7aff;
+  --cat-teal: #40c8e0;
+  --cat-lime: #a3d955;
+  --cat-blue: #409cff;
+  --cat-magenta: #ff70e0;
+  --cat-green: #30db5b;
+  --cat-red: #ff6961;
+  --cat-mint: #66d4cf;
+  --cat-amber: #f5c242;
+  --cat-slate: #5e6472;
+  --cat-gray: #98989d;
+  --cat-fallback: #8e8e97;
+}

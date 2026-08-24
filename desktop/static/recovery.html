@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+    <title>מסגרת — שחזור</title>
+    <link rel="stylesheet" href="./recovery.css" />
+  </head>
+  <body>
+    <main>
+      <div class="mark" aria-hidden="true">מ</div>
+      <p class="eyebrow">מצב שחזור</p>
+      <h1>מסגרת לא הצליחה להפעיל את מנוע הנתונים</h1>
+      <p>הנתונים המקומיים נשארו במקומם. אפשר לנסות שוב או לפתוח את תיקיית האבחון.</p>
+      <p class="code" id="error-code" aria-live="polite"></p>
+      <div class="actions">
+        <button id="retry" class="primary">נסה שוב</button>
+        <button id="logs">פתח אבחון</button>
+        <button id="quit">יציאה</button>
+      </div>
+    </main>
+    <script src="./recovery.js"></script>
+  </body>
+</html>

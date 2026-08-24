@@ -1,0 +1,14 @@
+:root { color-scheme: dark; font-family: "IBM Plex Sans Hebrew", "Segoe UI", sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; color: #f5f6ff; background: #0d0e15; }
+main { width: min(620px, calc(100vw - 48px)); padding: 48px; border: 1px solid #2c3042; border-radius: 22px; background: #171924; box-shadow: 0 28px 80px #0008; }
+.mark { width: 52px; height: 52px; display: grid; place-items: center; border-radius: 14px; color: #15151d; background: #7d86ff; font-size: 28px; font-weight: 800; }
+.eyebrow { margin: 28px 0 6px; color: #9299ff; font-size: 13px; font-weight: 700; letter-spacing: .03em; }
+h1 { margin: 0; font-size: clamp(26px, 4vw, 38px); line-height: 1.2; }
+p { color: #b8bdd0; line-height: 1.7; }
+.code { min-height: 1.5em; color: #73798c; font-family: ui-monospace, monospace; direction: ltr; text-align: right; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+button { min-height: 42px; padding: 0 18px; border: 1px solid #353a50; border-radius: 10px; color: #edf0ff; background: #232638; font: inherit; font-weight: 650; cursor: pointer; }
+button:hover { border-color: #6870cf; background: #2c3047; }
+button:focus-visible { outline: 3px solid #aeb3ff; outline-offset: 3px; }
+button.primary { border-color: #7d86ff; color: #101119; background: #8c94ff; }

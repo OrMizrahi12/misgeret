@@ -1,0 +1,25 @@
+node_modules/
+.codex/
+.agents/
+data/
+dist/
+.desktop-resources/
+.desktop-smoke/
+.build/
+.vite/
+out/
+playwright-report/
+test-results/
+*.log
+# Local configuration and cryptographic material never belong in the public repository.
+.env
+.env.*
+*.pem
+.superpowers/
+.qa-tmp/
+*.nupkg
+*.tsbuildinfo
+# Squirrel's feed file (Windows matches ignore patterns case-insensitively,
+# so a bare RELEASES would also swallow docs/releases/ — keep it anchored)
+/RELEASES
+/out/**/RELEASES
