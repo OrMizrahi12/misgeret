@@ -55,8 +55,8 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/max.png" width="110" alt="Max"><br><sub>Max</sub></td>
-    <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/isracard.png" width="140" alt="Isracard"><br><sub>Isracard</sub></td>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="docs/assets/institutions/max-card.svg" width="118" alt="Max"><br><sub>Max</sub></td>
+    <td align="center" width="25%" bgcolor="#ffffff"><img src="docs/assets/institutions/isracard-card.svg" width="150" alt="Isracard"><br><sub>Isracard</sub></td>
     <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/visaCal.png" width="82" alt="Cal"><br><sub>Cal</sub></td>
     <td align="center" width="25%" bgcolor="#ffffff"><img src="client/src/assets/companies/amex.png" height="58" alt="American Express"><br><sub>American Express</sub></td>
   </tr>
