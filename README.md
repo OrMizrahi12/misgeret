@@ -21,6 +21,11 @@
   · <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-Linux-x64.rpm"><strong>Linux RPM</strong></a>
 </p>
 
+<p align="center" dir="rtl">
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/download/v1.0.0/Misgeret-Full-Product-Tour-v1.0.0.mp4"><strong>▶ לצפייה בסיור המלא בתוכנה (MP4)</strong></a><br>
+  <sub>5:26 דקות · כל המסכים והוויזואליזציות · נתוני הדגמה סינתטיים בלבד</sub>
+</p>
+
 > אין הרשמה, אין כניסה עם Google, אין תקופת ניסיון, אין מנוי ואין תשלום. מורידים, מתקינים ונכנסים ישירות לפרופיל המקומי.
 
 ![מסך הבית של מסגרת עם נתוני הדגמה פיקטיביים](docs/assets/screenshots/home.png)
