@@ -1,15 +1,29 @@
-# Misgeret
+<div align="center">
+  <img src="docs/assets/brand/misgeret-logo.svg" width="112" alt="Misgeret logo">
+  <h1>Misgeret</h1>
+  <h3>Your financial picture. On your computer.</h3>
+  <p>A free, open-source, local-first desktop app for Israeli household finance.</p>
+</div>
 
 <p align="center">
-  <strong>Your financial picture. On your computer.</strong><br>
-  A free and open-source desktop app for Israeli household finance.
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/OrMizrahi12/misgeret?style=flat-square&logo=github&label=release&color=5b2be0"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/actions/workflows/ci.yml"><img alt="CI status" src="https://img.shields.io/github/actions/workflow/status/OrMizrahi12/misgeret/ci.yml?branch=main&style=flat-square&label=CI"></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-5b2be0?style=flat-square"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/OrMizrahi12/misgeret/total?style=flat-square&label=downloads&color=0090ab"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/OrMizrahi12/misgeret?style=flat-square&label=version"></a>
-  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-5b2be0?style=flat-square"></a>
+  <img alt="100% free" src="https://img.shields.io/badge/100%25-free-168a45?style=flat-square">
+  <img alt="Local first" src="https://img.shields.io/badge/data-local--first-168a45?style=flat-square">
+  <img alt="No account required" src="https://img.shields.io/badge/account-not%20required-168a45?style=flat-square">
   <img alt="Platforms" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-0090ab?style=flat-square">
-  <img alt="No account" src="https://img.shields.io/badge/account-not%20required-168a45?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/MisgeretSetup.exe"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows-5b2be0?style=for-the-badge&logo=windows"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest"><img alt="Download for macOS" src="https://img.shields.io/badge/Download-macOS-3b286f?style=for-the-badge&logo=apple"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest"><img alt="Download for Linux" src="https://img.shields.io/badge/Download-Linux-0090ab?style=for-the-badge&logo=linux"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/download/v1.0.0/Misgeret-Full-Product-Tour-v1.0.0.mp4"><img alt="Watch the product tour" src="https://img.shields.io/badge/Watch-Product_Tour-ef3f75?style=for-the-badge&logo=youtube"></a>
 </p>
 
 No sign-up, Google login, trial, subscription, or payment. Install the app and enter a local profile immediately. The interface is currently Hebrew.
