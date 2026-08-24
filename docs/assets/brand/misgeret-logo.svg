@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title description">
+  <title id="title">Misgeret logo</title>
+  <desc id="description">An open rounded purple frame with an amber point of light</desc>
+  <defs>
+    <linearGradient id="frame" x1="18" y1="14" x2="108" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7545ee"/>
+      <stop offset="1" stop-color="#4b20c8"/>
+    </linearGradient>
+  </defs>
+  <rect x="17" y="17" width="94" height="94" rx="29" fill="none" stroke="url(#frame)" stroke-width="13" stroke-linecap="round" pathLength="100" stroke-dasharray="86 14"/>
+  <circle cx="24.5" cy="24.5" r="9.5" fill="#ffb020"/>
+</svg>

@@ -1,36 +1,58 @@
-# מסגרת
+<div align="center" dir="rtl">
+  <img src="docs/assets/brand/misgeret-logo.svg" width="124" alt="הלוגו של מסגרת">
+  <h1>מסגרת</h1>
+  <h3>התמונה הפיננסית שלך. אצלך.</h3>
+  <p>אפליקציית Desktop חינמית ובקוד פתוח שמרכזת את התמונה הפיננסית של משקי בית בישראל — על המחשב שלך.</p>
+</div>
 
-<p align="center" dir="rtl">
-  <strong>התמונה הפיננסית שלך. אצלך.</strong><br>
-  אפליקציית Desktop חינמית ובקוד פתוח לניהול התמונה הפיננסית של משקי בית בישראל.
+<p align="center">
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/OrMizrahi12/misgeret?style=flat-square&logo=github&label=release&color=5b2be0"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/actions/workflows/ci.yml"><img alt="CI status" src="https://img.shields.io/github/actions/workflow/status/OrMizrahi12/misgeret/ci.yml?branch=main&style=flat-square&label=CI"></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-5b2be0?style=flat-square"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/OrMizrahi12/misgeret/total?style=flat-square&label=downloads&color=0090ab"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/OrMizrahi12/misgeret?style=flat-square&label=version"></a>
-  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-5b2be0?style=flat-square"></a>
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-0090ab?style=flat-square">
-  <img alt="No account" src="https://img.shields.io/badge/account-not%20required-168a45?style=flat-square">
+  <img alt="100% free" src="https://img.shields.io/badge/100%25-free-168a45?style=flat-square">
   <img alt="Local first" src="https://img.shields.io/badge/data-local--first-168a45?style=flat-square">
+  <img alt="No account required" src="https://img.shields.io/badge/account-not%20required-168a45?style=flat-square">
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-0090ab?style=flat-square">
+  <img alt="Hebrew RTL" src="https://img.shields.io/badge/interface-Hebrew%20RTL-ffb020?style=flat-square&labelColor=3b286f">
 </p>
 
 <p align="center" dir="rtl">
-  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/MisgeretSetup.exe"><strong>Windows x64</strong></a>
-  · <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-macOS-arm64.dmg"><strong>macOS Apple Silicon</strong></a>
-  · <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-macOS-x64.dmg"><strong>macOS Intel</strong></a>
-  · <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-Linux-x64.deb"><strong>Linux DEB</strong></a>
-  · <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/Misgeret-1.0.0-Linux-x64.rpm"><strong>Linux RPM</strong></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/MisgeretSetup.exe"><img alt="הורדה ל-Windows" src="https://img.shields.io/badge/Download-Windows-5b2be0?style=for-the-badge&logo=windows"></a>
+  <a href="#הורדה"><img alt="הורדה ל-macOS" src="https://img.shields.io/badge/Download-macOS-3b286f?style=for-the-badge&logo=apple"></a>
+  <a href="#הורדה"><img alt="הורדה ל-Linux" src="https://img.shields.io/badge/Download-Linux-0090ab?style=for-the-badge&logo=linux"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/download/v1.0.0/Misgeret-Full-Product-Tour-v1.0.0.mp4"><img alt="סיור וידאו מלא" src="https://img.shields.io/badge/Watch-Video_Tour-ef3f75?style=for-the-badge&logo=youtube"></a>
 </p>
 
 <p align="center" dir="rtl">
-  <a href="https://github.com/OrMizrahi12/misgeret/releases/download/v1.0.0/Misgeret-Full-Product-Tour-v1.0.0.mp4"><strong>▶ לצפייה בסיור המלא בתוכנה (MP4)</strong></a><br>
-  <sub>5:26 דקות · כל המסכים והוויזואליזציות · נתוני הדגמה סינתטיים בלבד</sub>
+  <a href="#הורדה">הורדה</a> ·
+  <a href="#מה-מסגרת-נותנת">יכולות</a> ·
+  <a href="#מוסדות-נתמכים">בנקים ואשראי</a> ·
+  <a href="#סיור-בכל-המסכים">כל המסכים</a> ·
+  <a href="#פרטיות-ואבטחה">פרטיות</a> ·
+  <a href="#קהילה-ותרומה">תרומה לפרויקט</a>
 </p>
 
-> אין הרשמה, אין כניסה עם Google, אין תקופת ניסיון, אין מנוי ואין תשלום. מורידים, מתקינים ונכנסים ישירות לפרופיל המקומי.
+> [!IMPORTANT]
+> **אין הרשמה, אין כניסה עם Google, אין תקופת ניסיון, אין מנוי ואין תשלום.** מורידים, מתקינים ונכנסים ישירות לפרופיל המקומי.
 
-![מסך הבית של מסגרת עם נתוני הדגמה פיקטיביים](docs/assets/screenshots/home.png)
+<table dir="rtl">
+  <tr>
+    <td align="center" width="25%"><strong>חינם באמת</strong><br><sub>MIT · ללא מנוי · ללא פרסומות</sub></td>
+    <td align="center" width="25%"><strong>מקומי ופרטי</strong><br><sub>SQLite במחשב שלך · ללא ענן פיננסי</sub></td>
+    <td align="center" width="25%"><strong>נבנה לישראל</strong><br><sub>בנקים, כרטיסים ושפה עברית מלאה</sub></td>
+    <td align="center" width="25%"><strong>תמונה אחת ברורה</strong><br><sub>חודש · שנה · תחזית · הון · בריאות</sub></td>
+  </tr>
+</table>
 
-כל צילומי המסך בעמוד צולמו מהאפליקציה האמיתית עם נתונים סינתטיים בלבד. אין בהם נתוני בנק, שם משתמש או מידע אישי של אדם אמיתי.
+<a href="https://github.com/OrMizrahi12/misgeret/releases/download/v1.0.0/Misgeret-Full-Product-Tour-v1.0.0.mp4">
+  <img src="docs/assets/screenshots/home.png" alt="מסך הבית של מסגרת עם נתוני הדגמה פיקטיביים">
+</a>
+
+<p align="center" dir="rtl"><sub>▶ לחצו על התמונה לצפייה בסיור המלא · 5:26 דקות · כל הנתונים בסרטון ובצילומים סינתטיים בלבד</sub></p>
 
 ## הורדה
 
@@ -48,14 +70,12 @@
 
 ## מה מסגרת נותנת
 
-- **תמונה אחת במקום אקסלים:** הכנסות, הוצאות, תזרים, יתרות, נכסים, התחייבויות והון עצמי.
-- **חודש, שנה ומגמה:** כמה נכנס, כמה יצא, כמה נשאר ואיך המצב משתנה לאורך זמן.
-- **תחזית קדימה:** תזרים צפוי ותרחישי “מה אם” על בסיס הדפוסים המקומיים שלך.
-- **מנויים, קבועים והרגלים:** זיהוי דפוסים חוזרים בלי להפוך ניחוש לעובדה; ההחלטה הסופית נשארת שלך.
-- **סיווג חכם ומקומי:** כללים, קטגוריות וחידוד עסקאות נשמרים במחשב שלך.
-- **כמה בנקים וכרטיסים יחד:** התאמת חיוב הכרטיס לעו״ש והחרגת העברות פנימיות מצמצמות ספירה כפולה.
-- **פרופילים נפרדים:** לכל בן משפחה או עולם פיננסי מסד, חיבורים וגיבויים משלו.
-- **ייצוא וגיבוי:** CSV, גיבויים מקומיים ושחזור מתוך האפליקציה.
+| | |
+|---|---|
+| **תמונה אחת במקום אקסלים**<br>הכנסות, הוצאות, תזרים, יתרות, נכסים, התחייבויות והון עצמי. | **חודש, שנה ומגמה**<br>כמה נכנס, כמה יצא, כמה נשאר ואיך המצב משתנה לאורך זמן. |
+| **תחזית קדימה**<br>תזרים צפוי ותרחישי “מה אם” על בסיס הדפוסים המקומיים שלך. | **מנויים, קבועים והרגלים**<br>זיהוי דפוסים חוזרים כשההחלטה הסופית נשארת שלך. |
+| **סיווג חכם ומקומי**<br>כללים, קטגוריות וחידוד עסקאות נשמרים במחשב שלך. | **כמה בנקים וכרטיסים יחד**<br>התאמת חיובי כרטיס והעברות פנימיות מצמצמת ספירה כפולה. |
+| **פרופילים נפרדים**<br>לכל בן משפחה או עולם פיננסי מסד, חיבורים וגיבויים משלו. | **ייצוא וגיבוי**<br>CSV, גיבויים מקומיים ושחזור מתוך האפליקציה. |
 
 ## השוואה לשירותים ישראליים אחרים
 
