@@ -21,10 +21,10 @@
 </p>
 
 <p align="center" dir="rtl">
-  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/MisgeretSetup.exe"><img alt="הורדה ל-Windows" src="https://img.shields.io/badge/הורדה-Windows-5b2be0?style=for-the-badge&logo=windows"></a>
-  <a href="#הורדה"><img alt="הורדה ל-macOS" src="https://img.shields.io/badge/הורדה-macOS-3b286f?style=for-the-badge&logo=apple"></a>
-  <a href="#הורדה"><img alt="הורדה ל-Linux" src="https://img.shields.io/badge/הורדה-Linux-0090ab?style=for-the-badge&logo=linux"></a>
-  <a href="https://github.com/OrMizrahi12/misgeret/releases/download/v1.0.0/Misgeret-Full-Product-Tour-v1.0.0.mp4"><img alt="סיור וידאו מלא" src="https://img.shields.io/badge/סיור_מלא-וידאו-ef3f75?style=for-the-badge&logo=youtube"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/latest/download/MisgeretSetup.exe"><img alt="הורדה ל-Windows" src="https://img.shields.io/badge/Download-Windows-5b2be0?style=for-the-badge&logo=windows"></a>
+  <a href="#הורדה"><img alt="הורדה ל-macOS" src="https://img.shields.io/badge/Download-macOS-3b286f?style=for-the-badge&logo=apple"></a>
+  <a href="#הורדה"><img alt="הורדה ל-Linux" src="https://img.shields.io/badge/Download-Linux-0090ab?style=for-the-badge&logo=linux"></a>
+  <a href="https://github.com/OrMizrahi12/misgeret/releases/download/v1.0.0/Misgeret-Full-Product-Tour-v1.0.0.mp4"><img alt="סיור וידאו מלא" src="https://img.shields.io/badge/Watch-Video_Tour-ef3f75?style=for-the-badge&logo=youtube"></a>
 </p>
 
 <p align="center" dir="rtl">
